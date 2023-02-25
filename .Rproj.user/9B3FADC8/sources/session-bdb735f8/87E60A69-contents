@@ -1,0 +1,43 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+#title: "Ekaterina Borisova"
+author: "Ekaterina Borisova"
+author_profile: true
+tags: []
+output:
+  html_document:
+     theme: cosmo
+     highlight: textmate
+     include:
+       # bio: bio_name.html
+         after_body: footer.html
+       # before_body: header.html
+---
+
+<br>
+
+Dr. Ekaterina Borisova is currently a holder of the grant “Accueil de jeunes chercheurs d’avenir” at [Lille Économie et Management](https://lem.univ-lille.fr/), Université de Lille, France. She is also [CESifo Research Network](https://www.cesifo.org/en) Affiliate. From 2012 to 2022 she worked as an Assistant Professor at the Economics Department of the [Higher School of Economics](https://www.hse.ru/en/) (HSE) in Moscow, Russia and as a guest lecturer at the [Lomonosov Moscow State University](https://www.msu.ru/en/). From 2017 to 2022 she was a Deputy Director at the [HSE International Center for the Study of Institutions and Development](https://iims.hse.ru/en/csid/) in Moscow which became well-known for its high quality research on Russia. Her MA and PhD in Economics are from HSE University.
+
+Dr. Borisova’s background is in economics and economic geography with the primary research interests in the fields of political economy, institutional economics and the economics of social capital and culture. Her ongoing research projects are interdisciplinary and involve collaboration with economists and political scientists alike. She was a visiting fellow at WZB Berlin Social Science Center, Ghent University, Bank of Finland Institute for Emerging Economies (BOFIT) among others. Ekaterina Borisova has published in leading journals such as Nature Medicine and the Journal of Politics.
+
+<br>
+
+### Main Peer-Reviewed Publications
+
+- Solis Arce J.S., Warren S.S., Meriggi N.F. et al. (2021) [COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries](https://www.nature.com/articles/s41591-021-01454-y). _Nature Medicine_, 27, 1385–1394.
+- Frye T., Borisova E. (2019) [Elections, Protest and Trust in Government: A Natural Experiment from Russia](https://www.journals.uchicago.edu/doi/abs/10.1086/702944?mobileUi=0). _Journal of Politics_, 81(3), 820-832.
+- Borisova E., Govorun A.., Ivanov D., Levina I. (2018) [Social Capital and Preferences for Redistribution to Target Groups](https://www.sciencedirect.com/science/article/abs/pii/S0176268018300259). _European Journal of Political Economy_, 54, 56-67.
+- Borisova E. I., Govorun A. V., Ivanov D.S. (2017) [Social Capital and Support for the Welfare State in Russia](https://www.tandfonline.com/doi/abs/10.1080/1060586X.2017.1348588?journalCode=rpsa20). _Post-Soviet Affairs_, 33(5), 411-429.
+- Borisova E., Polishchuk L., Peresetsky A. (2014) [Collective Management of Residential Housing in Russia: The Importance of Being Social](https://www.sciencedirect.com/science/article/pii/S0147596714000328). _Journal of Comparative Economics_, 42(3), 609-629.
+
+### Work in Progress
+
+- Borisova E., Smyth R., Zakharov A. *Unexpected  Consequences  of  Policy:   The  Accumulation  of  Pro-social  Norms  Under  the Moscow Housing Renovation Program* [R&R in American Political Science Review]
+- Borisova E., Gründler K., Hackenberger A., Harter A., Potrafke N., and Schoors K. *Crisis Experience and the Deep Roots of COVID-19 Vaccination Preferences* [R&R in European Economic Review]
+- Borisova E., Frye T., Schoors K., Zabolotskiy V. *Fear, Trust and Demand for Regulation: Evidence from the Covid-19 Pandemic in Russia* [Submitted]
+- Borisova E., Schoors K., Zabolotskiy V. *Neolithic Ancestry and Gender Roles*
+- Borisova E., Frye T., Schoors K., Zabolotskiy V. *Gender norms and domestic violence: Evidence from the Covid-19 lockdowns*
+- Borisova E., Ivanov D., Schoors K. *Generalized Trust, Preferences for Redistribution and Institutions*
+

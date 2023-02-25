@@ -1,0 +1,143 @@
+minimal_mistakes_skin: "default"
+baseurl: ""
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
+url: "https://enazrullaeva.github.io"
+
+markdown: kramdown
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Setup
+title: Ekaterina Borisova
+description: 
+
+github_username:  enazrullaeva
+#theme: jekyll-theme-cayman
+#remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+plugins:
+  - jekyll-feed
+
+author:
+  name: "Ekaterina Borisova"
+  # avatar: "/assets/images/me.jpg"
+  # bio: "I am postdoc"
+
+navbar:
+  title: Ekaterina Borisova
+  left:
+    - text: "Home"
+      href: index.html
+    # - text: "CV"
+      # href: cv.pdf
+    - icon: fas fa-envelope
+      href: mailto:ekaterina.borisova@univ-lille.fr
+    - icon: fa-brands fa-google
+      href: https://scholar.google.ru/citations?user=_7rk0b4AAAAJ&hl=en
+    # - icon: fab fa-github
+    #  href: https://github.com/enazrullaeva
+#    - icon: fab fa-orcid
+#    - href: https://orcid.org/0000-0001-9995-7205
+
+header:
+#   overlay_image: canvas_resized.jpg
+
+fontsize: 12pt
+geometry: margin=1in
+fontfamily: FontAwesome
+mainfont: Times New Roman
+sansfont: Times New Roman
+
+sass:
+    style: compressed
+    sass_dir: _sass
+    
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# footer-img: "canvas.png"
+
+# google_analytics: 
+  
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
