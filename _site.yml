@@ -2,7 +2,7 @@ minimal_mistakes_skin: "default"
 baseurl: ""
 theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-url: "https://enazrullaeva.github.io"
+url: "https://borisova-ekaterina.github.io"
 
 markdown: kramdown
 
@@ -21,7 +21,7 @@ kramdown:
 title: Ekaterina Borisova
 description: 
 
-github_username:  enazrullaeva
+github_username:  borisova-ekaterina
 #theme: jekyll-theme-cayman
 #remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 plugins:
@@ -29,8 +29,8 @@ plugins:
 
 author:
   name: "Ekaterina Borisova"
-  # avatar: "/assets/images/me.jpg"
-  # bio: "I am postdoc"
+  # avatar: "/assets/images/profile_photo.jpg"
+  # bio: "TBA"
 
 navbar:
   title: Ekaterina Borisova
@@ -44,12 +44,12 @@ navbar:
     - icon: fa-brands fa-google
       href: https://scholar.google.ru/citations?user=_7rk0b4AAAAJ&hl=en
     # - icon: fab fa-github
-    #  href: https://github.com/enazrullaeva
+    #  href: https://github.com/borisova-ekaterina
 #    - icon: fab fa-orcid
-#    - href: https://orcid.org/0000-0001-9995-7205
+#    - href: 
 
 header:
-#   overlay_image: canvas_resized.jpg
+#   overlay_image: tba.jpg
 
 fontsize: 12pt
 geometry: margin=1in
