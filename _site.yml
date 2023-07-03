@@ -37,14 +37,14 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    # - text: "CV"
-      # href: cv.pdf
+    - text: "CV"
+      href: Borisova_CV.pdf
     - icon: fas fa-envelope
       href: mailto:ekaterina.borisova@univ-lille.fr
     - icon: fa-brands fa-google
       href: https://scholar.google.ru/citations?user=_7rk0b4AAAAJ&hl=en
-    # - icon: fab fa-github
-    #  href: https://github.com/borisova-ekaterina
+    - icon: fab fa-github
+      href: https://github.com/borisova-ekaterina
 #    - icon: fab fa-orcid
 #    - href: 
 
